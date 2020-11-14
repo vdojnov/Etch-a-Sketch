@@ -65,9 +65,9 @@ function setColor() {
 
 // LOGIC
 // start with 5 x 5 grid 
-input = 5;
+input = 16;
 currentColor = "black"
-sliderVal.textContent = 5;
+sliderVal.textContent = input;
 mainContainer.appendChild(gameBox)
 popluate()
 
