@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <header>
+            <ul>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+            <ul id="right-header">
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </header>
+        <h1>Etch-A-Scetch</h1>
+        <p>Hover your mouse and to draw within the box</p>
+        <div id="main-container">
+            <div id="controller">
+                <h2>Controller</h2>
+                <div id="settings">
+                    <p>Adjust you settings here:</p>
+                    <p id="slide-val"></p>
+                    <input type="range" min="2" max="100" id="slider" value="5">
+                    <button id="clear-btn">Clear</button>
+                </div>
+                <br>
+                <div id="colors">
+                    <button class="color-btn" style="border-color: black;" value="black">Black</button>
+                    <button class="color-btn" style="border-color: #b84326;" value="#b84326">Red</button>
+                    <button class="color-btn" style="border-color: aqua;" value="aqua">Blue</button>
+                    <button class="color-btn" style="border-color: green;" value="green">Green</button>
+                </div>
+            </div>
+        </div>
+        <p>Created by Viktor Dojnov as part of The Odin Project</p>
+    </body>
+</html>
+<script src="script.js"></script>
+<link rel="stylesheet" href="styles.css">
+
+
+
+<!-- <div style="background-color: aqua; height: 5vh; width: 5vh;"></div>             -->
