@@ -13,7 +13,6 @@ let currentColor;
 gameBox.id = "game-box";
 let allBoxes 
 
-// popluate()
 
 // FUNCTIONS
 
@@ -68,8 +67,6 @@ currentColor = "black"
 sliderVal.textContent = 5;
 mainContainer.appendChild(gameBox)
 popluate()
-
-
 
 
 
