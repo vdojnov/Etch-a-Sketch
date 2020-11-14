@@ -14,7 +14,7 @@ gameBox.id = "game-box";
 let allBoxes 
 
 
-// FUNCTIONS
+// FUNCTIONS FOR LOGIC
 
 function popluate() {
     let numBoxes = input*input;
@@ -33,7 +33,9 @@ function popluate() {
         singleBox.style.height = dimention+"%"
         gameBox.appendChild(singleBox)
     }
+
     allBoxes = document.querySelectorAll('.box');
+
     allBoxes.forEach(box => {
         box.addEventListener("mouseover", changeColor);   
     });
@@ -62,6 +64,7 @@ function setColor() {
 }
 
 // LOGIC
+// start with 5 x 5 grid 
 input = 5;
 currentColor = "black"
 sliderVal.textContent = 5;
